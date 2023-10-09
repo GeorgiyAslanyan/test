@@ -1,0 +1,192 @@
+[
+    {
+      "categoryId": 0,
+      "title": "Storytelling",
+      "description": "Develop your storytelling abilities to effectively convey messages through motion graphics. Understand narrative structures, pacing, and visual storytelling techniques to engage viewers and create compelling animations",
+      "marked": null
+    },
+    {
+      "categoryId": 0,
+      "title": "Motion Principles",
+      "description": "Gain a solid understanding of motion principles like timing, easing, and spatial relationships. Master techniques such as keyframing, motion paths, and transitions to bring your designs to life and create smooth and engaging animations",
+      "marked": null
+    },
+    {
+      "categoryId": 0,
+      "title": "3D Rendering",
+      "description": "Knowledge of 3D modeling and rendering software like Cinema 4D or Autodesk Maya can elevate your motion graphic designs. Understanding how to create 3D objects, apply textures and materials, and render high-quality output will give.",
+      "marked": null
+    },
+    {
+      "categoryId": 0,
+      "title": "Typography",
+      "description": "Typography plays a significant role in motion graphics. Learn how to select appropriate fonts:",
+      "marked": [
+        "arrange and animate text;",
+        "reate kinetic typography;",
+        "echnique that combines motion and text"
+      ]
+    },
+    {
+      "categoryId": 0,
+      "title": "Graphics Effects",
+      "description": "Typography plays a significant role in motion graphics. Learn how to select appropriate fonts:",
+      "marked": [
+        "arrange and animate text;",
+        "reate kinetic typography;",
+        "echnique that combines motion and text"
+      ]
+    },
+    {
+      "categoryId": 1,
+      "title": "Graphics",
+      "description": "Develop your storytelling abilities to effectively convey messages through motion graphics. Understand narrative structures, pacing, and visual storytelling techniques to engage viewers and create compelling animations",
+      "marked": null
+    },
+    {
+      "categoryId": 1,
+      "title": "Graphics Principles",
+      "description": "Gain a solid understanding of motion principles like timing, easing, and spatial relationships. Master techniques such as keyframing, motion paths, and transitions to bring your designs to life and create smooth and engaging animations",
+      "marked": null
+    },
+    {
+      "categoryId": 1,
+      "title": "3D Graphics",
+      "description": "Knowledge of 3D modeling and rendering software like Cinema 4D or Autodesk Maya can elevate your motion graphic designs. Understanding how to create 3D objects, apply textures and materials, and render high-quality output will give.",
+      "marked": null
+    },
+    {
+      "categoryId": 1,
+      "title": "Graphics typograohy",
+      "description": "Typography plays a significant role in motion graphics. Learn how to select appropriate fonts:",
+      "marked": [
+        "arrange and animate text;",
+        "reate kinetic typography;",
+        "echnique that combines motion and text"
+      ]
+    },
+    {
+      "categoryId": 1,
+      "title": "Graphics Effects",
+      "description": "Typography plays a significant role in motion graphics. Learn how to select appropriate fonts:",
+      "marked": [
+        "arrange and animate text;",
+        "reate kinetic typography;",
+        "echnique that combines motion and text"
+      ]
+    },
+    {
+      "categoryId": 2,
+      "title": "Web Storytelling",
+      "description": "Develop your storytelling abilities to effectively convey messages through motion graphics. Understand narrative structures, pacing, and visual storytelling techniques to engage viewers and create compelling animations",
+      "marked": null
+    },
+    {
+      "categoryId": 2,
+      "title": "Web Principles",
+      "description": "Gain a solid understanding of motion principles like timing, easing, and spatial relationships. Master techniques such as keyframing, motion paths, and transitions to bring your designs to life and create smooth and engaging animations",
+      "marked": null
+    },
+    {
+      "categoryId": 2,
+      "title": "3D Web",
+      "description": "Knowledge of 3D modeling and rendering software like Cinema 4D or Autodesk Maya can elevate your motion graphic designs. Understanding how to create 3D objects, apply textures and materials, and render high-quality output will give.",
+      "marked": null
+    },
+    {
+      "categoryId": 2,
+      "title": "Web",
+      "description": "Typography plays a significant role in motion graphics. Learn how to select appropriate fonts:",
+      "marked": [
+        "arrange and animate text;",
+        "reate kinetic typography;",
+        "echnique that combines motion and text"
+      ]
+    },
+    {
+      "categoryId": 2,
+      "title": "Web Effects",
+      "description": "Typography plays a significant role in motion graphics. Learn how to select appropriate fonts:",
+      "marked": [
+        "arrange and animate text;",
+        "reate kinetic typography;",
+        "echnique that combines motion and text"
+      ]
+    },
+    {
+      "categoryId": 3,
+      "title": "Events storytelling",
+      "description": "Develop your storytelling abilities to effectively convey messages through motion graphics. Understand narrative structures, pacing, and visual storytelling techniques to engage viewers and create compelling animations",
+      "marked": null
+    },
+    {
+      "categoryId": 3,
+      "title": "Events Principles",
+      "description": "Gain a solid understanding of motion principles like timing, easing, and spatial relationships. Master techniques such as keyframing, motion paths, and transitions to bring your designs to life and create smooth and engaging animations",
+      "marked": null
+    },
+    {
+      "categoryId": 3,
+      "title": "3D Events",
+      "description": "Knowledge of 3D modeling and rendering software like Cinema 4D or Autodesk Maya can elevate your motion graphic designs. Understanding how to create 3D objects, apply textures and materials, and render high-quality output will give.",
+      "marked": null
+    },
+    {
+      "categoryId": 3,
+      "title": "Events",
+      "description": "Typography plays a significant role in motion graphics. Learn how to select appropriate fonts:",
+      "marked": [
+        "arrange and animate text;",
+        "reate kinetic typography;",
+        "echnique that combines motion and text"
+      ]
+    },
+    {
+      "categoryId": 3,
+      "title": "Events Visual Effects",
+      "description": "Typography plays a significant role in motion graphics. Learn how to select appropriate fonts:",
+      "marked": [
+        "arrange and animate text;",
+        "reate kinetic typography;",
+        "echnique that combines motion and text"
+      ]
+    },
+    {
+      "categoryId": 4,
+      "title": "Marketing",
+      "description": "Develop your storytelling abilities to effectively convey messages through motion graphics. Understand narrative structures, pacing, and visual storytelling techniques to engage viewers and create compelling animations",
+      "marked": null
+    },
+    {
+      "categoryId": 4,
+      "title": "Marketing Principles",
+      "description": "Gain a solid understanding of motion principles like timing, easing, and spatial relationships. Master techniques such as keyframing, motion paths, and transitions to bring your designs to life and create smooth and engaging animations",
+      "marked": null
+    },
+    {
+      "categoryId": 4,
+      "title": "3D Marketing",
+      "description": "Knowledge of 3D modeling and rendering software like Cinema 4D or Autodesk Maya can elevate your motion graphic designs. Understanding how to create 3D objects, apply textures and materials, and render high-quality output will give.",
+      "marked": null
+    },
+    {
+      "categoryId": 4,
+      "title": "Marketing Typography",
+      "description": "Typography plays a significant role in motion graphics. Learn how to select appropriate fonts:",
+      "marked": [
+        "arrange and animate text;",
+        "reate kinetic typography;",
+        "echnique that combines motion and text"
+      ]
+    },
+    {
+      "categoryId": 4,
+      "title": "Visual Marketing",
+      "description": "Typography plays a significant role in motion graphics. Learn how to select appropriate fonts:",
+      "marked": [
+        "arrange and animate text;",
+        "reate kinetic typography;",
+        "echnique that combines motion and text"
+      ]
+    }
+  ]

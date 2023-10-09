@@ -22,7 +22,7 @@ const Accordion = () => {
       <div className="grid grid-cols-9 gap-[96px]">
             <div className="col-span-4 flex flex-col gap-10">
                 {arr.map((el, index) => <div key={el.title} className="flex flex-col gap-6 border-b border-gray-700 pb-[32px]">
-                    <div onClick={() => setActive(index)} className="flex text-[24px] items-center text-white font-medium justify-between"><p>{el.title}</p><img src="/accordion/arrow.svg" className={`transition-all duration-150 ease-linear ${active === index && 'rotate-180'}`} alt="arrow" /></div>
+                    <div onClick={() => setActive(index)} className="flex cursor-pointer  text-[24px] items-center text-white font-medium justify-between"><p>{el.title}</p><img src="/accordion/arrow.svg" className={`transition-all duration-150 ease-linear ${active === index && 'rotate-180'}`} alt="arrow" /></div>
                     <p className={`text-gray-200  ${active === index ? 'block' : 'hidden'}`}>{el.description}</p>
                 </div>)}
             </div>

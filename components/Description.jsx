@@ -1,6 +1,6 @@
 import React from "react";
 
-const Description = () => {
+const Description = ({setIsModalOpen}) => {
   return (
     <div className="bg-gradient-to-b from-[#111827] to-[#1F293E] py-[144px] px-[60px] flex flex-col gap-[128px]">
       <div className="gap-[64px] items-center grid grid-cols-7">
@@ -15,7 +15,7 @@ const Description = () => {
             leaders, in open and candid discussions about transformative
             strategies and mindsets. Addressing complex trends.
           </p>
-          <button className="pt-8 bg-clip-text text-transparent bg-gradient-to-r from-[#6366F1] to-[#AC54F1] w-fit font-medium text-[18px]">
+          <button onClick={() => setIsModalOpen(true)} className="pt-8 bg-clip-text text-transparent bg-gradient-to-r from-[#6366F1] to-[#AC54F1] w-fit font-medium text-[18px]">
             All campaigns →
           </button>
         </div>
@@ -43,7 +43,7 @@ const Description = () => {
             and total creative control throughout the process of production,
             with resources and talent supplied by us.
           </p>
-          <button className="pt-8 bg-clip-text text-transparent bg-gradient-to-r from-[#6366F1] to-[#AC54F1] w-fit font-medium text-[18px]">
+          <button onClick={() => setIsModalOpen(true)} className="pt-8 bg-clip-text text-transparent bg-gradient-to-r from-[#6366F1] to-[#AC54F1] w-fit font-medium text-[18px]">
           I have an idea for film →
           </button>
         </div>

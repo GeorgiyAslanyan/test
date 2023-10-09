@@ -1,7 +1,7 @@
 'use client'
 import React, { useEffect, useState } from 'react'
 
-const Navbar = () => {
+const Navbar = ({setIsModalOpen}) => {
     const [scrollY, setScrollY] = useState(0);
     const [isOpen, setIsOpen] = useState(false)
     const [isDe, setIsDe] = useState(true)
@@ -11,10 +11,8 @@ const Navbar = () => {
     };
 
     useEffect(() => {
-      // Добавляем слушатель события scroll при монтировании компонента
       window.addEventListener('scroll', handleScroll);
   
-      // Удаляем слушатель события scroll при размонтировании компонента
       return () => {
         window.removeEventListener('scroll', handleScroll);
       };
@@ -30,7 +28,7 @@ const Navbar = () => {
             <a href="#contacts">Contacts</a>
         </div>
         <div className='flex gap-2 max-h-12'>
-            <div onClick={() => setIsOpen(prev => !prev)} className={`relative rounded-2xl px-[14px] flex gap-3 py-3 items-center ${scrollY <= 750 && "border border-gray-500"}`}>
+            <div onClick={() => setIsOpen(prev => !prev)} className={`relative cursor-pointer rounded-2xl px-[14px] flex gap-3 py-3 items-center ${scrollY <= 750 && "border border-gray-500"}`}>
                 <img src={isDe ? '/navbar/de.svg' : '/navbar/en.svg'} alt="activeLang" />
                 <p>{isDe ? 'De' : 'En'}</p>
                 <img src="/accordion/arrow.svg" className={`transition-all duration-150 ease-linear ${!isOpen && 'rotate-180'}`} alt="arrow" />
@@ -45,7 +43,7 @@ const Navbar = () => {
                     </button>
                 </div>}
             </div>
-            <button className='bg-blue-600 rounded-2xl px-[14px] py-3'>Contact us</button>
+            <button onClick={() => setIsModalOpen(true)} className='bg-blue-600 rounded-2xl px-[14px] py-3'>Contact us</button>
         </div>
     </div>
   )
