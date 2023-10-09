@@ -1,22 +1,23 @@
-'use client'
 import React from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
 import { DotButton, useDotButton } from './EmblaCarouselDotButton'
 import imageByIndex from './ImageByIndex'
+import Autoplay from 'embla-carousel-autoplay'
 
-export const EmblaCarousel = ({ slides, options }) => {
-    const [emblaRef, emblaApi] = useEmblaCarousel(options)
-  
-    const { selectedIndex, scrollSnaps, onDotButtonClick } =
-      useDotButton(emblaApi)
+const EmblaCarousel = (props) => {
+  const { slides, options } = props
+  const [emblaRef, emblaApi] = useEmblaCarousel(options, [Autoplay()])
 
+  const { selectedIndex, scrollSnaps, onDotButtonClick } =
+    useDotButton(emblaApi)
 
   return (
-    <div className="embla" ref={emblaRef}>
-        <div className="embla__viewport" ref={emblaRef}>
+    <div className="embla">
+      <div className="embla__viewport bg-gray-700 opacity-[0.6]" ref={emblaRef}>
+
         <div className="embla__container">
           {slides.map((index) => (
-            <div key={index} className="embla__slide">
+            <div className="embla__slide" key={index}>
               <img
                 className="embla__slide__img"
                 src={imageByIndex(index).src}
@@ -26,7 +27,8 @@ export const EmblaCarousel = ({ slides, options }) => {
           ))}
         </div>
       </div>
-      <div className="embla__dots">
+
+      <div className="embla__dots z-30">
         {scrollSnaps.map((_, index) => (
           <DotButton
             key={index}
@@ -40,3 +42,5 @@ export const EmblaCarousel = ({ slides, options }) => {
     </div>
   )
 }
+
+export default EmblaCarousel

@@ -23,7 +23,7 @@ const Skillset = ({ setIsModalOpen }) => {
         <h2 className="text-black text-6xl flex font-medium gap-4">
           Our skillset{" "}
           <img
-            src="/description/camera.png"
+            src="/hero/camera.webp"
             alt="camera"
             className="w-[72px] h-[72px] p-1 rounded-full border-dashed border-2 border-blue-600"
           />{" "}
