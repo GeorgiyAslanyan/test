@@ -31,7 +31,7 @@ const Navbar = ({ navData }) => {
         }`}>
         <div className="flex justify-between items-center">
           <img
-            src="/navbar/logo.svg"
+            src="/navbar/Logo.svg"
             className="w-[123px] sm:w-[196px]"
             alt="logo"
           />
